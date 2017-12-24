@@ -1,17 +1,4 @@
-html, body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  color: #919191;
-  font-family: 'Montserrat', sans-serif;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import './partials/_body.scss';
 @import './partials/_navbar.scss';
 @import './partials/_home.scss';
 @import './partials/_about.scss';

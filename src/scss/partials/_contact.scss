@@ -1,5 +1,6 @@
 .contact {
-  height: 100vh;
+  background: #919191;
+  height: 90vh;
   margin: auto;
   width: 100%;
 
@@ -8,5 +9,30 @@
     color: #eaaaa0;
     line-height: 30vh;
     text-align: center;
+  }
+
+  .contact-details{
+    margin: 5% auto;
+    width: 100%;
+
+    p {
+      color: white;
+      margin: auto;
+      text-align: center;
+
+      span {
+        color: #eaaaa0;
+        font-weight: bold;
+
+        a {
+        color: #eaaaa0;
+        text-decoration: none;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }

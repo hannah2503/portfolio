@@ -1,17 +1,27 @@
 .about {
   height: 100vh;
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
 
+.heading{
+  background: #919191;
+  overflow: hidden !important;
+
   h1 {
-    background: #919191;
     color: #eaaaa0;
     line-height: 30vh;
     text-align: center;
   }
-
-  p {
-    margin: auto;
+}
+.about-text{
+    margin: 5% auto;
     width: 50%;
+
+    p {
+      font-size: 18px;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+    }
   }
 }

@@ -3,15 +3,27 @@
   margin: auto;
   width: 100%;
 
-  h1 {
+  .heading-home {
     background: #919191;
     color: #eaaaa0;
     line-height: 30vh;
     text-align: center;
+
+    h1 {
+      font-size: 45px !important;
+      font-weight: lighter;
+    }
   }
 
-  p {
-    margin: auto;
+  .home-text{
+    margin: 5% auto;
     width: 50%;
+
+    p {
+      font-size: 18px;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+    }
   }
 }

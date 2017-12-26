@@ -1,14 +1,16 @@
 footer {
   background-color: #919191;
-  height: 50px;
+  height: 100px;
   line-height: 50px;
+  text-transform: lowercase;
   width: 100%;
 
   a {
     color: #e8e8e8;
+    float: right;
     text-decoration: none;
-    padding-left: 1%;
-    margin: 1%;
+    padding-right: 1%;
+    margin-right: 2%;
   }
 
   a:hover{

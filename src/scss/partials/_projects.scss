@@ -1,12 +1,29 @@
 .projects {
+  background: #919191;
   height: 100vh;
   margin: auto;
   width: 100%;
 
-  h1 {
+  .heading {
     background: #919191;
     color: #eaaaa0;
     line-height: 30vh;
+    padding-top: 5%;
     text-align: center;
+  }
+
+  .content {
+    height: 500px;
+    margin: auto;
+    width: 100%;
+
+    img {
+      width: 25%;
+    }
+
+    p {
+      color: #eaaaa0;
+      text-align: center;
+    }
   }
 }

@@ -5,7 +5,15 @@ class Projects extends React.Component {
   render(){
     return(
       <div className="projects">
-        <h1>Portfolio Coming Soon.... </h1>
+        <div className="heading">
+          <h1>Portfolio Coming Soon.... </h1>
+        </div>
+        <div className="content">
+          <img src="./assets/image3.jpg"/>
+          <img src="./assets/screen1.jpg"/>
+          <img src="./assets/image3.jpg"/>
+          <img src="./assets/screen1.jpg"/>
+        </div>
       </div>
     );
   }

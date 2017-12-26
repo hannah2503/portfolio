@@ -8,14 +8,16 @@ nav {
 
   a {
     color: white;
-    text-decoration: none;
-    padding-left: 1%;
     margin: 1%;
+    padding-left: 1%;
+    text-decoration: none;
+    text-transform: lowercase;
   }
 
   a:hover{
     color: #eaaaa0;
     text-decoration: none;
+    text-transform: lowercase;
   }
 
 }

@@ -1,6 +1,6 @@
 .projects {
   background: #919191;
-  height: 100vh;
+  height: 200vh;
   margin: auto;
   width: 100%;
 
@@ -18,7 +18,10 @@
     width: 100%;
 
     img {
-      width: 25%;
+      float: left;
+      height: 450px;
+      overflow: hidden;
+      width: 50%;
     }
 
     p {

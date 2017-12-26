@@ -6,13 +6,13 @@ class Projects extends React.Component {
     return(
       <div className="projects">
         <div className="heading">
-          <h1>Portfolio Coming Soon.... </h1>
+          <h1>Projects</h1>
         </div>
         <div className="content">
-          <img src="./assets/image3.jpg"/>
-          <img src="./assets/screen1.jpg"/>
-          <img src="./assets/image3.jpg"/>
-          <img src="./assets/screen1.jpg"/>
+          <a href="#"><img src="./assets/image3.jpg"/></a>
+          <a href="#"><img src="./assets/screen1.jpg"/></a>
+          <a href="#"><img src="./assets/charity1.jpg"/></a>
+          <a href="#"><img src="./assets/atlas1.jpg"/></a>
         </div>
       </div>
     );

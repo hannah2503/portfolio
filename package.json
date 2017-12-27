@@ -15,6 +15,7 @@
     "test": "yarn test:server && yarn test:client"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "axios": "^0.17.1",
     "body-parser": "^1.18.1",
     "express": "^4.16.2",

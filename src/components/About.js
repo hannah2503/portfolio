@@ -21,7 +21,7 @@ const About = () => {
         <p>I love learning to code. I want to keep doing it. I look forward to seeing where this programming adventure will lead next.</p>
         <br/>
         <br/>
-        <p>scroll to continue <i className="fa fa-arrow-down" aria-hidden="true"></i></p>
+        <p>contact <i className="fa fa-arrow-down" aria-hidden="true"></i></p>
       </div>
 
     </div>

@@ -11,7 +11,7 @@ class Projects extends React.Component {
           <a href="https://charityapp-hannah.herokuapp.com/" target="_blank" rel="noopener noreferrer" ><img src="./assets/charity1.jpg"/></a>
           <a href="https://social-atlas.herokuapp.com/" target="_blank" rel="noopener noreferrer" ><img src="./assets/atlas1.jpg"/></a>
         </div>
-        <p>scroll to continue <i className="fa fa-arrow-down" aria-hidden="true"></i></p>
+        <p>about <i className="fa fa-arrow-down" aria-hidden="true"></i></p>
       </div>
     );
   }

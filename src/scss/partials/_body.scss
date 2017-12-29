@@ -1,8 +1,8 @@
-html, body {
-  background: transparent;
+html, body, .app {
+  background: #919191;
   border: 0;
   box-sizing: border-box;
-  color: #919191;
+  color: #fff;
   font-family: 'Raleway', sans-serif;
   margin: 0;
   outline: 0;
@@ -18,8 +18,16 @@ html, body {
 
   p {
     font-size: 20px;
-    text-transform: lowercase;
+  }
+
+  .wrapper {
+    margin: 0;
+    button {
+      margin-left: 50%;
+      margin-bottom: 50%;
+      a {
+        font-size: 50px;
+      }
+    }
   }
 }
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');

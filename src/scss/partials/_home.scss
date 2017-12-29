@@ -1,19 +1,21 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 .home {
-  background: #919191;
-  height: 150vh;
+  height: 100vh;
   margin: auto;
   width: 100%;
 
   .heading-home {
-    background: #919191;
     color: #eaaaa0;
-    line-height: 100vh;
     text-align: center;
 
     h1 {
       font-size: 65px !important;
       font-weight: lighter;
+      padding-top: 20%  !important;
     }
   }
-
+   p, .fa {
+     text-align: center;
+   }
 }

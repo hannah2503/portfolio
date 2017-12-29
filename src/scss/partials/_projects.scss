@@ -1,30 +1,20 @@
 .projects {
-  background: #919191;
   height: 200vh;
   margin: auto;
   width: 100%;
 
-  .heading {
-    background: #919191;
-    color: #919191;
-    line-height: 1vh;
-    padding-top: 5%;
-    text-align: center;
-  }
-
-  .content {
-    height: 500px;
+  .container {
+    height: auto;
     margin: auto;
+    padding-top: 10%;
     width: 100%;
 
     img {
+      width: 31.3%;
       float: left;
-      height: 450px;
-      opacity: 0.5;
+      height: 300px;
       overflow: hidden;
       padding: 1%;
-      width: 48%;
-
       &:hover {
         opacity: 1;
       }
@@ -35,5 +25,10 @@
       color: #eaaaa0;
       text-align: center;
     }
+  }
+
+  p, .fa {
+    clear: both;
+    text-align: center;
   }
 }

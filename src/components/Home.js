@@ -6,6 +6,7 @@ const Home = () => {
       <div className="heading-home">
         <h1>HANNAH CROSS</h1>
       </div>
+      <p>scroll to continue <i className="fa fa-arrow-down" aria-hidden="true"></i></p>
     </div>
   );
 };

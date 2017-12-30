@@ -1,21 +1,15 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .home {
-  height: 100vh;
+  color: #eaaaa0;
   margin: auto;
   width: 100%;
-
-  .heading-home {
-    color: #eaaaa0;
-    text-align: center;
+  text-align: center;
 
     h1 {
-      font-size: 65px !important;
+      font-size: 65px;
       font-weight: lighter;
-      padding-top: 20%  !important;
+      text-transform: uppercase;
     }
-  }
-   p, .fa {
-     text-align: center;
-   }
+
 }

@@ -8,26 +8,80 @@ html, body, .app {
   outline: 0;
   overflow-y: auto;
   padding: 0;
-
   vertical-align: baseline;
 
-  h1 {
-    font-size: 30px;
-    text-transform: uppercase;
-  }
+}
 
-  p {
-    font-size: 20px;
-  }
 
-  .wrapper {
-    margin: 0;
-    button {
-      margin-left: 50%;
-      margin-bottom: 50%;
-      a {
-        font-size: 50px;
-      }
-    }
-  }
+.container-main {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    height: 100%;
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+     "m c c c c c c c c c c c"
+     "m f f f f f f f f f f f";
+}
+
+.header {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+}
+
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-auto-flow: dense;
+    justify-content: center;
+}
+
+.box {
+  border: 2px solid black;
+}
+
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #eaaaa0;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+a {
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaaaa0;
+  text-decoration: underline;
 }

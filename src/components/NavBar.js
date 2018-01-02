@@ -33,20 +33,21 @@ class NavBar extends React.Component{
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
             </Link>
             <br/>
-            <Link to="https://github.com/crossy87">
+            <a href="https://github.com/crossy87" target="_blank">
               <i className="fa fa-github" aria-hidden="true"></i>
-            </Link>
-            <Link to="https://www.linkedin.com/in/crossyh/">
+            </a>
+            <a href="https://www.linkedin.com/in/crossyh/" target="_blank">
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-            </Link>
-            <Link to="https://www.instagram.com/hanigrams/">
-              <i className="fa fa-instagram" aria-hidden="true"></i></Link>
-            <Link to="https://twitter.com/crossy_h">
+            </a>
+            <a href="https://www.instagram.com/hanigrams/" target="_blank">
+              <i className="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/crossy_h" target="_blank">
               <i className="fa fa-twitter" aria-hidden="true"></i>
-            </Link>
-            <Link to="https://coffeecodego.tumblr.com/">
+            </a>
+            <a href="https://coffeecodego.tumblr.com/" target="_blank">
               <i className="fa fa-tumblr-square" aria-hidden="true"></i>
-            </Link>
+            </a>
           </div>
         </nav>
 

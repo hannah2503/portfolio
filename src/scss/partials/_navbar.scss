@@ -1,11 +1,13 @@
-.navbar {
-  background: transparent;
+nav {
+  background: #333333;
   font-size: 20px;
   height: 100px;
   line-height: 50px;
-  margin-top: 20px;
-  position: static;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
 
   .nav-wrapper {
     margin: auto;
@@ -13,7 +15,7 @@
     width: 50%;
 
     a, i {
-      color: #333333;
+      color: #fff;
       padding: 2%;
       text-decoration: none;
       text-transform: lowercase;
@@ -29,6 +31,45 @@
       color: #eaaaa0;
       text-decoration: none;
       text-transform: lowercase;
+    }
+  }
+}
+
+@media only all and (max-width: 500px) {
+  nav {
+    background: transparent;
+    font-size: 20px;
+    height: 100px;
+    line-height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+    .nav-wrapper {
+      margin: auto;
+      text-align: center;
+      width: 50%;
+
+      a, i {
+        color: #333333;
+        padding: 2%;
+        text-decoration: none;
+        text-transform: lowercase;
+      }
+
+      a:hover {
+        color: #eaaaa0;
+        text-decoration: none;
+        text-transform: lowercase;
+      }
+
+      i:hover {
+        color: #eaaaa0;
+        text-decoration: none;
+        text-transform: lowercase;
+      }
     }
   }
 }

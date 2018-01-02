@@ -9,24 +9,4 @@ html, body, .app {
   overflow-y: auto;
   padding: 0;
   vertical-align: baseline;
-
-  h1 {
-    font-size: 30px;
-    text-transform: uppercase;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .wrapper {
-    margin: 0;
-    button {
-      margin-left: 50%;
-      margin-bottom: 50%;
-      a {
-        font-size: 50px;
-      }
-    }
-  }
 }

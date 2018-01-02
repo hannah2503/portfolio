@@ -5,6 +5,29 @@
   animation-fill-mode: both;
 }
 
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.3, 1.3, 1.3);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+
 @keyframes bounceInLeft {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -38,107 +61,107 @@
 }
 
 
-// The animation code
-@keyframes fallingPixels {
-  from {background-color: #ffffff;}
-  to {background-color: #919191;}
-  0%   {background-color: #D6D9DB;}
-  25%  {background-color: #91999F;}
-  50%  {background-color: #989DA5;}
-  100% {background-color: #919191;}
-}
-
-The element to apply the animation to
-.A {
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  color: #ffffff;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  width: 100%;
-}
-
-.B {
-  animation-delay: 1s;
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  height: 50px;
-  width: 100%;
-}
-
-.C {
-  animation-delay: 2s;
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  height: 50px;
-  width: 100%;
-}
-
-
-.D {
-  animation-delay: 3s;
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  height: 50px;
-  width: 100%;
-}
-
-.E {
-  animation-delay: 4s;
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  height: 50px;
-  width: 100%;
-}
-
-.F {
-  animation-delay: 5s;
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  height: 50px;
-  width: 100%;
-}
-
-.G {
-  animation-delay: 6s;
-  animation-direction: alternate;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-name: fallingPixels;
-  animation-timing-function: ease-in-out;
-  background-color: #607d8b;
-  height: 50px;
-  width: 100%;
-}
+// // The animation code
+// @keyframes fallingPixels {
+//   from {background-color: #ffffff;}
+//   to {background-color: #919191;}
+//   0%   {background-color: #D6D9DB;}
+//   25%  {background-color: #91999F;}
+//   50%  {background-color: #989DA5;}
+//   100% {background-color: #919191;}
+// }
+//
+// The element to apply the animation to
+// .A {
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   color: #ffffff;
+//   height: 50px;
+//   line-height: 50px;
+//   text-align: center;
+//   width: 100%;
+// }
+//
+// .B {
+//   animation-delay: 1s;
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   height: 50px;
+//   width: 100%;
+// }
+//
+// .C {
+//   animation-delay: 2s;
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   height: 50px;
+//   width: 100%;
+// }
+//
+//
+// .D {
+//   animation-delay: 3s;
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   height: 50px;
+//   width: 100%;
+// }
+//
+// .E {
+//   animation-delay: 4s;
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   height: 50px;
+//   width: 100%;
+// }
+//
+// .F {
+//   animation-delay: 5s;
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   height: 50px;
+//   width: 100%;
+// }
+//
+// .G {
+//   animation-delay: 6s;
+//   animation-direction: alternate;
+//   animation-duration: 5s;
+//   animation-fill-mode: forwards;
+//   animation-iteration-count: infinite;
+//   animation-name: fallingPixels;
+//   animation-timing-function: ease-in-out;
+//   background-color: #607d8b;
+//   height: 50px;
+//   width: 100%;
+// }

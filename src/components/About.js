@@ -3,32 +3,46 @@ import React from 'react';
 const About = () => {
 
   return(
-    <section className="about">
+    <div>
       <div className="about-heading">
         <h2>Nice to meet you!</h2>
         <hr/>
       </div>
       <div className="about-text">
-        <p>In 2017 I made the decision which I had been toying with for a while. I decided I wanted to become a web developer.</p>
+
+        <p>Hello!</p>
         <br/>
-        <p>One of my favourite classes at school was IT (Information Technology) and I loved playing around with database software and playing games. I also had a great time experimenting with HTML to design my own fan-pages with Geocities.</p>
+        <p>In 2017 I made the decision to change everything. I wanted to become a Web Developer.</p>
         <br/>
-        <p>Fast forward to 2015 and I was feeling frustrated with various aspects of my career and so I took a 'Learn to Code in A Day' course run by Decoded. I had not felt so excited and passionate about a subject since I had done my undergraduate degree. </p>
+        <p>Initially, my passion for visual culture led me to pursue a career in the Arts sector; however, my fascination with creative practices and communication has since directed me towards programming.</p>
         <br/>
-        <p>Later that year a friend told me about coding bootcamps. This was the beginning of the programming epiphany. Still nervous I decided to do an online course with General Assembly to double check that web development was really and truly what I wanted to do.</p>
-        <p>It was 8 weeks of remote learning ( using a chromebook!! ) with a focus on HTML and CSS. I loved it.</p>
+        <p>It wasn't a total surprise. One of my favourite classes at school was Information Technology and I loved playing around with database software and playing games. I also had a great time experimenting with HTML to create my own websites.</p>
         <br/>
-        <p>By January 2017 I knew I wanted to take the leap. And so I did. I turned 30, quit my job and became a student once more. I enrolled in the General Assembly London Web Development Immersive course and from September to December 2017 I studied harder than I can remember. </p>
+        <p>From around 2015 I was feeling increasingly frustrated with various aspects of my career and so I took a <i>Learn to Code in A Day</i> course run by <a href="https://decoded.com/en-gb/">Decoded</a>. I had so much fun on this course and couldn not remember the last time I felt so excited and passionate about a subject. </p>
+        <br/>
+        <p>Following this, a friend told me about coding bootcamps. This was the beginning of the career change epiphany. Before taking the jump, I decided to do an online course with <a href="https://generalassemb.ly/">General Assembly</a> to double check that web development was definately what I wanted to do. It was 8 weeks of remote learning about web design, HTML and CSS ( using a chromebook!! ). I loved it.</p>
+        <br/>
+        <p>By January 2017 I knew I wanted to take the leap. And so I did. I turned 30, quit my job and became a student once more. I enrolled in the <a href="https://generalassemb.ly/education/web-development-immersive"> General Assembly London Web Development Immersive</a>. And from September to December 2017 I did nothing but code.</p>
+        <br/>
+        <p>During the course we covered a whole host of concepts, languages, libraries, frameworks and packages; including but not limited to: HTML5 , CSS3/SCSS,
+        JavaScript, jQuery, JSON, React, AngularJS, Express, Node.js, MongoDB, Mongoose, Mocha, Chai, AJAX, XML, Git, Heroku, Yarn, npm, Bower, Gulp, Webpack, Ruby, Ruby on Rails, PostgreSQL and ActiveRecord.</p>
         <br/>
         <p> Which leads me to now. </p>
         <br/>
-        <p>I love learning to code.</p>
+        <p>I am really looking forward to seeing where the code will take me next.</p>
         <br/>
-        <p> I look forward to seeing where the code will take me next.</p>
+        <p>Hannah </p>
+        <br/>
+        <br/>
+        {/* <div className="top-icon">
+          <a href="#top"><i className="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+        </div>
+        <div className="next-icon">
+          <p>scroll to next</p>
+          <i className="fa fa-arrow-circle-down animated infinite pulse" aria-hidden="true"></i>
+        </div> */}
       </div>
-      {/* <p>projects <i className="fa fa-arrow-down" aria-hidden="true"></i></p> */}
-    </section>
-
+    </div>
   );
 };
 

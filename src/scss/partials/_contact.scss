@@ -26,3 +26,11 @@
     }
   }
 }
+
+@media only all and (max-width: 500px) {
+.contact {
+  p, a {
+    font-size: 15px;
+  }
+}
+}

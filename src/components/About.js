@@ -12,15 +12,15 @@ const About = () => {
 
         <p>Hello!</p>
         <br/>
-        <p>In 2017 I made the decision to change everything. I wanted to become a Web Developer.</p>
+        <p>In 2017 I made the decision to change. I wanted to become a Web Developer.</p>
         <br/>
         <p>Initially, my passion for visual culture led me to pursue a career in the Arts sector; however, my fascination with creative practices and communication has since directed me towards programming.</p>
         <br/>
         <p>It wasn't a total surprise. One of my favourite classes at school was Information Technology and I loved playing around with database software and playing games. I also had a great time experimenting with HTML to create my own websites.</p>
         <br/>
-        <p>From around 2015 I was feeling increasingly frustrated with various aspects of my career and so I took a <i>Learn to Code in A Day</i> course run by <a href="https://decoded.com/en-gb/">Decoded</a>. I had so much fun on this course and couldn not remember the last time I felt so excited and passionate about a subject. </p>
+        <p>From around 2015 I was feeling increasingly frustrated with various aspects of my career and so I took a <i>Learn to Code in A Day</i> course run by <a href="https://decoded.com/en-gb/">Decoded</a>. I had so much fun on this course and could not remember the last time I felt so excited and passionate about a subject. </p>
         <br/>
-        <p>Following this, a friend told me about coding bootcamps. This was the beginning of the career change epiphany. Before taking the jump, I decided to do an online course with <a href="https://generalassemb.ly/">General Assembly</a> to double check that web development was definately what I wanted to do. It was 8 weeks of remote learning about web design, HTML and CSS ( using a chromebook!! ). I loved it.</p>
+        <p>Following this, a friend told me about coding bootcamps. This was the lightbulb moment for me. But, before taking the jump, I decided to do an online course with <a href="https://generalassemb.ly/">General Assembly</a> to double check that web development was definately what I wanted to do. It was 8 weeks of remote learning about web design, HTML and CSS ( using a chromebook!! ). I loved it.</p>
         <br/>
         <p>By January 2017 I knew I wanted to take the leap. And so I did. I turned 30, quit my job and became a student once more. I enrolled in the <a href="https://generalassemb.ly/education/web-development-immersive"> General Assembly London Web Development Immersive</a>. And from September to December 2017 I did nothing but code.</p>
         <br/>

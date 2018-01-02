@@ -1,0 +1,28 @@
+.contact {
+  background: #333333;
+  margin: auto;
+  width: 100%;
+
+  .contact-details{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+
+    p {
+      color: #fff;
+      margin: auto;
+      text-align: center;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #eaaaa0;
+      text-decoration: underline;
+    }
+  }
+}

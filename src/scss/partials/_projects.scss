@@ -1,0 +1,35 @@
+.projects {
+  height: 80vh;
+  margin: auto;
+  width: 80%;
+
+  .container {
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10%;
+    width: 100%;
+
+    h2 {
+      text-align: center;
+    }
+
+    img {
+      width: 40%;
+      float: left;
+      height: 400px;
+      padding: 5%;
+    }
+
+    p {
+      color: #333333;
+      text-align: center;
+    }
+  }
+
+  p, .fa {
+    clear: both;
+    text-align: center;
+  }
+
+}

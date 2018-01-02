@@ -1,0 +1,34 @@
+.navbar {
+  background: transparent;
+  font-size: 20px;
+  height: 100px;
+  line-height: 50px;
+  margin-top: 20px;
+  position: static;
+  width: 100%;
+
+  .nav-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+    a, i {
+      color: #333333;
+      padding: 2%;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+
+    a:hover {
+      color: #eaaaa0;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+
+    i:hover {
+      color: #eaaaa0;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+  }
+}

@@ -2,10 +2,17 @@ import React from 'react';
 
 const Home = () => {
   return(
-    <div className="home">
-      <h1>Hannah Cross</h1>
-    </div>
+    <section className="home">
+      <div className="heading-home">
+        <h1>HANNAH CROSS</h1>
+        <h3>Web Developer</h3>
+      </div>
+      {/* <p> About <i className="fa fa-arrow-down" aria-hidden="true"></i></p> */}
+    </section>
   );
 };
+
+
+
 
 export default Home;

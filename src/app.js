@@ -2,24 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router} from 'react-router-dom';
 
-import Home from './components/Home';
-import Content from './components/Content';
-import Menu from './components/Menu';
-import Footer from './components/Footer';
-
+import NavBar from './components/NavBar';
 
 import './scss/style.scss';
 
 class App extends React.Component {
 
+
   render() {
     return (
       <Router>
         <div className="container-main">
-          <div className="header"><Home /></div>
-          <div className="menu"><Menu /></div>
-          <div className="content"><Content /></div>
-          <div className="footer"><Footer /></div>
+          <NavBar />
         </div>
       </Router>
 

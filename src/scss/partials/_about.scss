@@ -1,0 +1,39 @@
+.about {
+  height: 150vh;
+  margin: auto;
+  width: 80%;
+
+  .about-heading {
+    margin: auto;
+    text-transform: uppercase;
+    width: 80%;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    hr {
+      border: 2px solid #333333;
+      background: #333333;
+      float: left;
+      height: 0.25em;
+      width: 8%;
+    }
+  }
+
+  .about-text {
+    line-height: normal;
+    margin: 10% auto;
+    width: 80%;
+
+    p, .fa {
+      clear: both;
+      font-size: 18px;
+      margin: auto;
+      text-align: justify;
+      width: 100%;
+    }
+
+  }
+
+}

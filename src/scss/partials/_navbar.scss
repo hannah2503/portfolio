@@ -37,7 +37,7 @@ nav {
 
 @media only all and (max-width: 500px) {
   nav {
-    background: transparent;
+    background: #333333;
     font-size: 20px;
     height: 100px;
     line-height: 50px;
@@ -53,7 +53,7 @@ nav {
       width: 50%;
 
       a, i {
-        color: #333333;
+        color: #fff;
         padding: 2%;
         text-decoration: none;
         text-transform: lowercase;

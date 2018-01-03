@@ -10,7 +10,7 @@ import Projects from './Projects';
 class NavBar extends React.Component{
 
   componentDidMount() {
-    scrollToComponent(this.home, { offset: 0, align: 'bottom', duration: 1000, ease: 'inCirc'});
+    scrollToComponent(this.home, { offset: -100, align: 'middle', duration: 1000, ease: 'inCirc'});
   }
 
   render(){

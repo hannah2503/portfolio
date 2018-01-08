@@ -11,6 +11,11 @@
     margin-top: 500px !important;
     text-align: center;
 
+    &:hover {
+      border: 10px solid #eaaaa0;
+      color: #eaaaa0;
+    }
+
     h1 {
       font-size: 65px !important;
       font-weight: 700 !important;

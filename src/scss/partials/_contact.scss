@@ -4,10 +4,18 @@
   width: 100%;
 
   .contact-details{
+    line-height: 30px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
     width: 80%;
+
+    .icons {
+      font-size: 30px;
+      text-align: center;
+
+    }
 
     p {
       color: #fff;
@@ -15,14 +23,23 @@
       text-align: center;
     }
 
-    a {
+    a, i {
       color: #fff;
+      padding: 1%;
       text-decoration: none;
+      text-transform: lowercase;
     }
 
     a:hover {
       color: #eaaaa0;
-      text-decoration: underline;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+
+    i:hover {
+      color: #eaaaa0;
+      text-decoration: none;
+      text-transform: lowercase;
     }
   }
 }

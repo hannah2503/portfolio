@@ -9,7 +9,6 @@ const About = () => {
         <hr/>
       </div>
       <div className="about-text">
-
         <p>Hello!</p>
         <br/>
         <p>In 2017 I made the decision to change. I wanted to become a Web Developer.</p>
@@ -34,13 +33,6 @@ const About = () => {
         <p>Hannah </p>
         <br/>
         <br/>
-        {/* <div className="top-icon">
-          <a href="#top"><i className="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
-        </div>
-        <div className="next-icon">
-          <p>scroll to next</p>
-          <i className="fa fa-arrow-circle-down animated infinite pulse" aria-hidden="true"></i>
-        </div> */}
       </div>
     </div>
   );

@@ -12,6 +12,10 @@
     h2 {
       font-size: 30px;
 
+      &:hover {
+        color: #eaaaa0;
+      }
+
     }
 
     hr {
@@ -69,6 +73,7 @@
   .about {
     height: 200vh;
     margin: auto;
+    padding-top: 100px;
     width: 100%;
 
     .about-heading {

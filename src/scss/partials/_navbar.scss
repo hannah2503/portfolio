@@ -1,6 +1,6 @@
 nav {
   background: #333333;
-  font-size: 30px;
+  font-size: 40px;
   height: 170px;
   line-height: 80px;
   width: 100%;
@@ -10,7 +10,7 @@ nav {
   z-index: 9999;
 
   .nav-wrapper {
-    margin: auto;
+    margin: 2% auto;
     text-align: center;
     width: 50%;
 
@@ -45,6 +45,52 @@ nav {
   }
 }
 
+@media only all and (max-width: 800px) {
+  nav {
+    background: #333333;
+    font-size: 25px;
+    height: 100px;
+    left: 0;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+
+    .nav-wrapper {
+      margin: auto;
+      text-align: center;
+      width: 70%;
+
+      a, i {
+        color: #fff;
+        margin-top: 3%;
+        padding: 1%;
+        text-decoration: none;
+        text-transform: lowercase;
+
+        p {
+          color: #333333;
+          font-family: 'Raleway', sans-serif;
+          font-size: 16px;
+        }
+      }
+
+      a:hover {
+        color: #eaaaa0;
+        text-decoration: none;
+        text-transform: lowercase;
+      }
+
+      i:hover {
+        color: #eaaaa0;
+        text-decoration: none;
+        text-transform: lowercase;
+      }
+    }
+  }
+}
+
 @media only all and (max-width: 500px) {
   nav {
     background: #333333;
@@ -60,13 +106,19 @@ nav {
     .nav-wrapper {
       margin: auto;
       text-align: center;
-      width: 50%;
+      width: 70%;
 
       a, i {
         color: #fff;
-        padding: 2%;
+        padding: 1%;
+        margin-top: 3%;
         text-decoration: none;
         text-transform: lowercase;
+        p {
+          color: #333333;
+          font-family: 'Raleway', sans-serif;
+          font-size: 12px;
+        }
       }
 
       a:hover {

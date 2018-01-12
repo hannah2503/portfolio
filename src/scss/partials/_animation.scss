@@ -1,7 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
 
 .animated {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-fill-mode: both;
 }
 
@@ -11,16 +11,36 @@
 
 @keyframes pulse {
   from {
-    transform: scale3d(1, 1, 1);
+    // transform: scale3d(1, 1, 1);
+    color: #333333;
+    border-color: #333333;
   }
 
-  50% {
-    transform: scale3d(1.3, 1.3, 1.3);
+  25% {
+    // transform: scale3d(1.02, 1.02, 1.02);
+    color: #333333;
+    border-color: #eaaaa0;
   }
 
-  to {
-    transform: scale3d(1, 1, 1);
+  50%{
+    // transform: scale3d(1.02, 1.02, 1.02);
+    color: #eaaaa0;
+    border-color: #eaaaa0;
   }
+
+  75%{
+    // transform: scale3d(1.02, 1.02, 1.02);
+    color: #eaaaa0;
+    border-color: #333333;
+  }
+
+  100%{
+    // transform: scale3d(1, 1, 1);
+    color: #333333;
+    border-color: #333333;
+  }
+
+
 }
 
 .pulse {
@@ -31,6 +51,7 @@
 @keyframes bounceInLeft {
   from, 60%, 75%, 90%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+
   }
 
   0% {

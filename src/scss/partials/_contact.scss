@@ -28,6 +28,7 @@
       padding: 2%;
       text-decoration: none;
       text-transform: lowercase;
+      
       p {
         color: #333333;
         font-family: 'Raleway', sans-serif;
@@ -53,9 +54,13 @@
 }
 
 @media only all and (max-width: 500px) {
-.contact {
-  p, a {
-    font-size: 15px;
+  a, i {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+
+    p {
+      display: none;
+    }
   }
-}
 }

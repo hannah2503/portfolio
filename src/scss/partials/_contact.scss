@@ -25,9 +25,14 @@
 
     a, i {
       color: #fff;
-      padding: 1%;
+      padding: 2%;
       text-decoration: none;
       text-transform: lowercase;
+      p {
+        color: #333333;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+      }
     }
 
     a:hover {
@@ -40,6 +45,9 @@
       color: #eaaaa0;
       text-decoration: none;
       text-transform: lowercase;
+      p {
+        color: #fff;
+      }
     }
   }
 }

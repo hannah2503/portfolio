@@ -21,21 +21,22 @@ class NavBar extends React.Component{
         }}>
           <div className="nav-wrapper">
             <Link to="#">
-              <i className="fa fa-home" aria-hidden="true" onClick={() => scrollToComponent(this.home, { offset: -100, align: 'middle', duration: 1500})}></i>
+              <i className="fa fa-home" aria-hidden="true" onClick={() => scrollToComponent(this.home, { offset: -100, align: 'middle', duration: 1500})}><p>Home</p></i>
             </Link>
             <Link to="#">
-              <i className="fa fa-info-circle" aria-hidden="true" onClick={() => scrollToComponent(this.about, { offset: 0, align: 'top', duration: 1500})}></i>
+              <i className="fa fa-info-circle" aria-hidden="true" onClick={() => scrollToComponent(this.about, { offset: 0, align: 'top', duration: 1500})}><p>About</p> </i>
             </Link>
             <Link to="#">
-              <i className="fa fa-code" aria-hidden="true" onClick={() => scrollToComponent(this.projects, { offset: 0, align: 'top', duration: 1500})}></i>
+              <i className="fa fa-code" aria-hidden="true" onClick={() => scrollToComponent(this.projects, { offset: 0, align: 'top', duration: 1500})}><p>Projects</p></i>
             </Link>
             <Link to="mailto:hannahbmcross@gmail.com?Subject=Hello%20Hannah" target="_top">
-              <i className="fa fa-envelope-o" aria-hidden="true"></i>
+              <i className="fa fa-envelope-o" aria-hidden="true"><p>Email Me</p></i>
+
             </Link>
           </div>
         </nav>
 
-        {/* <div className="container-main"> */}
+
         <section className="home" ref={(section) => {
           this.home = section;
         }}>
@@ -55,7 +56,6 @@ class NavBar extends React.Component{
           <Contact />
         </section>
       </div>
-      // </div>
     );
   }
 }

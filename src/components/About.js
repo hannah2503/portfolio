@@ -11,28 +11,17 @@ const About = () => {
       <div className="about-text">
         <p>Hello!</p>
         <br/>
-        <p>In 2017 I made the decision to change. I wanted to become a Web Developer.</p>
-        <br/>
-        <p>Initially, my passion for visual culture led me to pursue a career in the Arts sector; however, my fascination with creative practices and communication has since directed me towards programming.</p>
-        <br/>
-        <p>It wasn't a total surprise. One of my favourite classes at school was Information Technology and I loved playing around with database software and playing games. I also had a great time experimenting with HTML to create my own websites.</p>
-        <br/>
-        <p>From around 2015 I was feeling increasingly frustrated with various aspects of my career and so I took a <i>Learn to Code in A Day</i> course run by <a href="https://decoded.com/en-gb/">Decoded</a>. I had so much fun on this course and could not remember the last time I felt so excited and passionate about a subject. </p>
-        <br/>
-        <p>Following this, a friend told me about coding bootcamps. This was the lightbulb moment for me. But, before taking the jump, I decided to do an online course with <a href="https://generalassemb.ly/">General Assembly</a> to double check that web development was definately what I wanted to do. It was 8 weeks of remote learning about web design, HTML and CSS ( using a chromebook!! ). I loved it.</p>
-        <br/>
-        <p>By January 2017 I knew I wanted to take the leap. And so I did. I turned 30, quit my job and became a student once more. I enrolled in the <a href="https://generalassemb.ly/education/web-development-immersive"> General Assembly London Web Development Immersive</a>. And from September to December 2017 I did nothing but code.</p>
-        <br/>
-        <p>During the course we covered a whole host of concepts, languages, libraries, frameworks and packages; including but not limited to: HTML5 , CSS3/SCSS,
-        JavaScript, jQuery, JSON, React, AngularJS, Express, Node.js, MongoDB, Mongoose, Mocha, Chai, AJAX, XML, Git, Heroku, Yarn, npm, Bower, Gulp, Webpack, Ruby, Ruby on Rails, PostgreSQL and ActiveRecord.</p>
-        <br/>
-        <p> Which leads me to now. </p>
-        <br/>
-        <p>I am really looking forward to seeing where the code will take me next.</p>
-        <br/>
-        <p>Hannah </p>
-        <br/>
-        <br/>
+        <p>After dabbling with code in my spare time and talking incessantly to my friends about how much I loved it, I was introduced to the concept of a coding bootcamp. I had previously done an online course with General Assembly and this then led me to choose GA when I decided to take the career change plunge and sign up for a course.
+
+        From the moment I was accepted onto the course I was learning everyday. Being challenged and rewarded in equal measure, the feeling of absorbing new skills and knowledge has been exhilarating and has pushed me to keep going. In addition, the friendships and networks we have developed as part of the GA course have also been a big highlight.
+
+        I had prior knowledge of HTML and CSS and so the biggest achievement for me was to reach a point where I understand and feel a level of confidence with JavaScript and JS frameworks such as React and Angular.
+
+        I will definitely work on personal projects using React but also plan to experiment with Ruby which we only touched on briefly during the course.
+
+        Another key learning point was how developers work as a team and the level of communication and planning required to make a group project a success. I will take this experience with me into any team that I join in the future.
+
+        Learn more about the course </p>
       </div>
     </div>
   );

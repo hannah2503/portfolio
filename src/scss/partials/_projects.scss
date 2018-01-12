@@ -1,34 +1,62 @@
 .projects {
-  height: 70vh;
+  height: 280vh !important;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 80px;
   width: 80%;
 
-  .container {
-    border: 10px solid #333333;
+.container {
     height: auto;
     margin: auto;
     overflow: hidden;
-    width: 80%;
+
+    img {
+      border: 2px solid black;
+      margin: 1%;
+      position: relative;
+      width: 96%;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
 
     h2 {
+      font-size: 40px;
       text-align: center;
+    }
+
+  }
+
+}
+
+
+@media only all and (max-width: 800px) {
+  .projects {
+    height: 150vh !important;
+    margin: auto;
+    width: 85%;
+
+    h2 {
+      font-size: 20px;
     }
 
     p {
-      color: #333333;
-      text-align: center;
+      font-size: 15px;
     }
-
   }
 }
 
 
 @media only all and (max-width: 500px) {
   .projects {
-    height: 70vh;
+    height: 180vh !important;
     margin: auto;
-    width: 85%;
+    width: 100%;
+
+    img {
+
+      width: 100%;
+    }
 
     h2 {
       font-size: 20px;

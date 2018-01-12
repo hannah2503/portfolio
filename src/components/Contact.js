@@ -14,20 +14,20 @@ class Contact extends React.Component {
           </p>
           <br/>
           <div className="icons">
-            <a href="https://github.com/crossy87" target="_blank">
-              <i className="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/crossy87" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-github" aria-hidden="true"><p>github</p></i>
             </a>
-            <a href="https://www.linkedin.com/in/crossyh/" target="_blank">
-              <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/crossyh/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-linkedin-square" aria-hidden="true"><p>linkedin</p></i>
             </a>
-            <a href="https://www.instagram.com/hanigrams/" target="_blank">
-              <i className="fa fa-instagram" aria-hidden="true"></i>
+            <a href="https://www.instagram.com/hanigrams/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-instagram" aria-hidden="true"><p>instagram</p></i>
             </a>
-            <a href="https://twitter.com/crossy_h" target="_blank">
-              <i className="fa fa-twitter" aria-hidden="true"></i>
+            <a href="https://twitter.com/crossy_h" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-twitter" aria-hidden="true"><p>twitter</p></i>
             </a>
-            <a href="https://coffeecodego.tumblr.com/" target="_blank">
-              <i className="fa fa-tumblr-square" aria-hidden="true"></i>
+            <a href="https://coffeecodego.tumblr.com/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-tumblr-square" aria-hidden="true"><p>tumblr</p></i>
             </a>
           </div>
         </div>

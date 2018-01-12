@@ -20,8 +20,6 @@ const About = () => {
         <p>I will definitely work on personal projects using React but also plan to experiment with Ruby which we only touched on briefly during the course.</p>
         <br/>
         <p>Another key learning point was how developers work as a team and the level of communication and planning required to make a group project a success. I will take this experience with me into any team that I join in the future.</p>
-        <br/>
-        <p>Learn more about the course </p>
       </div>
     </div>
   );

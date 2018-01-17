@@ -274,7 +274,7 @@ i {
 }
 
 
-@media all and (max-width: 860px) {
+@media only screen and (max-width: 860px) {
 
   .home-logo {
     display: block;
@@ -421,12 +421,28 @@ i {
 
 }
 
-@media only all and (max-width: 520px) {
+@media only screen and (max-width: 520px) {
 
   .targetDiv {
     font-size: 12px;
     margin: 10% auto;
     width: 100%;
+  }
+
+  .hamburger {
+    background: none;
+    border: 0;
+    color: #0B3948;
+    cursor: pointer;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 45px;
+    outline: none;
+    padding: 5px 15px 0 15px;
+    position: absolute;
+    top: 0;
+    z-index: 10000000000000;
   }
 
   .home-logo {

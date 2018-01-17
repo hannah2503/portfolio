@@ -249,7 +249,7 @@ i, .email{
     float: left;
     padding-left: 3%;
     text-align: left;
-    width: 30% !important;
+    width: 30%;
   }
 
   img {
@@ -416,9 +416,8 @@ i, .email{
   }
 
   .paragraph {
-    float: left;
+    clear: both;
     padding: 0 5%;
-    margin-bottom: 5%;
     text-align: left;
     width: 80%;
   }
@@ -437,6 +436,7 @@ i, .email{
   .aside-img-container img {
     overflow: hidden;
     width: 80%;
+    margin: 5%;
   }
 
   img {
@@ -445,9 +445,9 @@ i, .email{
   }
 
   .project img {
-    border:0;
+    border: 0;
     padding: 0;
-    margin: 20px 0 20px 0;
+    margin: 5%;
     width: 100%;
   }
 
@@ -468,7 +468,7 @@ i, .email{
   }
 
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 5%;
   }
 
@@ -486,12 +486,9 @@ i, .email{
   }
 
   .home-logo {
+    display: block;
     text-transform: uppercase;
     width: 100%;
-  }
-
-  .home-logo {
-    display: block;
   }
 
   .home-logo-large {
@@ -524,7 +521,6 @@ i, .email{
     z-index: 10000000000000;
   }
 
-
   .menu {
     font-size: 12px;
     font-weight: bold;
@@ -544,5 +540,50 @@ i, .email{
     float: right;
     margin: 1%;
     text-transform: uppercase;
+  }
+
+  .detail {
+    width: 100%;
+
+  }
+
+  .paragraph {
+    float: left;
+    padding: 0 5%;
+    margin-bottom: 5%;
+    text-align: left;
+    width: 100%;
+  }
+
+
+  /*img {
+  width: 100%;
+  }*/
+
+  .img-container {
+    margin: auto;
+    overflow: hidden;
+    width: 100%
+  }
+
+  .aside-img {
+    clear: both;
+    width: 100%;
+  }
+
+  /*.aside-img-container img {
+  margin: 0 2%;
+  overflow: hidden;
+  }*/
+
+  .project img {
+    border: 0;
+    padding: 0;
+    margin: 5%;
+    width: 100%;
+  }
+
+  .description {
+    width: 80%;
   }
 }

@@ -10,13 +10,11 @@ html.bg {
   border: 0;
   box-sizing: border-box;
   color: #fff;
-  /*height: 100%;*/
   margin: 0;
   outline: 0;
   overflow-y: auto;
   padding: 0;
   vertical-align: baseline;
-  /*width: 100%;*/
   z-index: 1;
 }
 
@@ -41,6 +39,7 @@ h4 {
 }
 
 a {
+  padding: 5px;
   text-decoration: none;
 }
 
@@ -98,7 +97,7 @@ a:hover {
   float: right;
   margin-top: 3%;
   margin-right: 10%;
-  padding: 5px;
+  /*padding: 5px;*/
   text-transform: uppercase;
 }
 
@@ -159,13 +158,13 @@ img {
 }
 .aside-img {
   float: right;
-
   width: 40%;
 }
+
 .aside-img-container img {
-  margin: 0 2%;
   overflow: hidden;
-  width: 48%;
+  width: 30%;
+  margin: 0 10%;
 }
 
 .project img {
@@ -176,8 +175,11 @@ img {
 }
 
 .description {
-  width: 80%;
+    font-size: 18px;
+    padding: 5% 0;
+    width: 80%;
 }
+
 
 /*contact details*/
 
@@ -281,8 +283,8 @@ i, .email{
   }
 
   .description {
-    width: 80%;
-  }
+    padding: 5% 0;
+}
 
   .paragraph {
     float: left;
@@ -307,12 +309,12 @@ i, .email{
   }
 
   .home-logo h1 {
-    font-size: 3.5em !important;
+    font-size: 3.5em;
     text-transform: uppercase;
   }
 
   .home-logo h2 {
-    font-size: 2.5em !important;
+    font-size: 2.5em;
     text-transform: uppercase;
   }
 
@@ -398,7 +400,7 @@ i, .email{
   }
 
   .detail {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-top: 10%;
     padding: 2%;
     margin-left: 1%;
@@ -411,7 +413,7 @@ i, .email{
   }
 
   .targetDiv {
-    font-size: 18px;
+    /*font-size: 18px;*/
     width: 100%;
   }
 
@@ -435,7 +437,7 @@ i, .email{
 
   .aside-img-container img {
     overflow: hidden;
-    width: 80%;
+    width: 50%;
     margin: 5%;
   }
 

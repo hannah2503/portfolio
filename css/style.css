@@ -199,7 +199,7 @@ i {
 
 
 /*MEDIA QUERIES*/
-@media only all and (max-width: 1195px) {
+@media all and (max-width: 1195px) {
 
   .nav-item, .menu-item {
     cursor: pointer;
@@ -274,7 +274,7 @@ i {
 }
 
 
-@media only all and (max-width: 860px) {
+@media all and (max-width: 860px) {
 
   .home-logo {
     display: block;

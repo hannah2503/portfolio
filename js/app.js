@@ -9,7 +9,7 @@ $(() => {
   $menuItems.show();
 
   $toggle.click(function() {
-    $menuItems.slideToggle( 'slow');
+    $menuItems.slideToggle('slow');
   });
 
   $showSingle.click(function(){

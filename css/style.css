@@ -44,8 +44,7 @@ a {
 }
 
 a:hover {
-  border: 1px dotted pink;
-  color: pink;
+  color: #FF5964;
   padding: 5px;
 }
 
@@ -175,9 +174,9 @@ img {
 }
 
 .description {
-    font-size: 18px;
-    padding: 5% 0;
-    width: 80%;
+  font-size: 18px;
+  padding: 5% 0;
+  width: 80%;
 }
 
 
@@ -193,9 +192,10 @@ i, .email{
 }
 
 .fa {
-  font-size: 3em;
+  font-size: 30px !important;
   padding: 2%;
 }
+
 
 /*FOOTER*/
 .footer {
@@ -208,6 +208,11 @@ i, .email{
 /*MEDIA QUERIES*/
 @media all and (max-width: 1195px) {
 
+
+  h2 {
+    font-size: 1.5em;
+    padding: 5%;
+  }
   .nav-item, .menu-item {
     cursor: pointer;
     float: right;
@@ -248,32 +253,35 @@ i, .email{
   }
 
   .paragraph {
-    float: left;
-    padding-left: 3%;
+    clear: both;
+    font-size: 16px;
+    padding: 0 5%;
     text-align: left;
-    width: 30%;
-  }
-
-  img {
     width: 80%;
   }
 
   .img-container {
-    margin: auto;
     overflow: hidden;
-
     width: 100%
   }
-  .aside-img {
-    float: right;
 
-    width: 40%;
-  }
-  .aside-img-container img {
-    margin: 0 2%;
-    overflow: hidden;
+  .aside-img {
+    float: left;
+    margin: 10% 0;
     width: 80%;
   }
+
+  .aside-img-container img {
+    overflow: hidden;
+    width: 50%;
+    margin: 5%;
+  }
+
+  img {
+    margin: auto;
+    width: 80%;
+  }
+
 
   .project img {
     border:0;
@@ -284,14 +292,8 @@ i, .email{
 
   .description {
     padding: 5% 0;
-}
-
-  .paragraph {
-    float: left;
-    padding-left: 3%;
-    text-align: left;
-    width: 20%;
   }
+
 
 }
 
@@ -419,6 +421,7 @@ i, .email{
 
   .paragraph {
     clear: both;
+    font-size: 16px;
     padding: 0 5%;
     text-align: left;
     width: 80%;
@@ -449,7 +452,6 @@ i, .email{
   .project img {
     border: 0;
     padding: 0;
-    margin: 5%;
     width: 100%;
   }
 
@@ -554,7 +556,6 @@ i, .email{
     padding: 0 5%;
     margin-bottom: 5%;
     text-align: left;
-    width: 100%;
   }
 
 
@@ -588,4 +589,34 @@ i, .email{
   .description {
     width: 80%;
   }
+}
+
+
+
+/*animate*/
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
 }

@@ -559,10 +559,6 @@ i, .email{
   }
 
 
-  /*img {
-  width: 100%;
-  }*/
-
   .img-container {
     margin: auto;
     overflow: hidden;
@@ -574,15 +570,10 @@ i, .email{
     width: 100%;
   }
 
-  /*.aside-img-container img {
-  margin: 0 2%;
-  overflow: hidden;
-  }*/
 
   .project img {
     border: 0;
     padding: 0;
-    margin: 5%;
     width: 100%;
   }
 

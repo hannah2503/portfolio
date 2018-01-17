@@ -187,17 +187,18 @@ img {
 
 i, .email{
   color:  #0B3948;
-  font-size: 25px;
+
 }
 
-i {
+.fa {
+  font-size: 3em;
   padding: 2%;
 }
 
 /*FOOTER*/
 .footer {
   grid-area: f;
-  text-align: center;
+
 }
 
 
@@ -214,10 +215,10 @@ i {
     text-transform: uppercase;
   }
 
-
   .detail-logo {
-    margin-top: 40%;
-    width: 100%;
+    border: 5px solid #0B3948;
+    margin: 30% 14%;
+    width: 70%;
   }
 
   .home-logo-large {
@@ -297,8 +298,8 @@ i {
 
   .detail-logo {
     border: 5px solid #0B3948;
-    margin-top: 50% !important;
-    width: 100%;
+    margin: 50% 14%;
+    width: 70%;
   }
 
   .home-logo {
@@ -460,21 +461,33 @@ i {
 
 @media all and (max-width: 520px) {
 
+
+  h1 {
+    font-size: 3em;
+    padding: 2%;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    padding: 5%;
+  }
+
+
+  h4 {
+    font-size: 1.5em;
+    padding: 5%;
+  }
+
+
   .detail-logo {
     border: 5px solid #0B3948;
-    margin-top: 50% !important;
+    margin: 50% 14%;
+    width: 70%;
+  }
+
+  .home-logo {
+    text-transform: uppercase;
     width: 100%;
-  }
-
-  .home-logo h1 {
-    font-size: 3.5em !important;
-    text-transform: uppercase;
-  }
-
-
-  .home-logo h2 {
-    font-size: 2.5em !important;
-    text-transform: uppercase;
   }
 
   .home-logo {
@@ -486,7 +499,7 @@ i {
   }
 
   .logo {
-    display:none !important;
+    display: none;
   }
 
   .targetDiv {
@@ -511,31 +524,6 @@ i {
     z-index: 10000000000000;
   }
 
-  .home-logo {
-    display: block;
-    padding: 20%;
-  }
-
-  .detail-logo {
-    margin-top: 20%;
-    width: 100%;
-  }
-
-  h1 {
-    font-size: 3em;
-    padding: 2%;
-  }
-
-  h2 {
-    font-size: 2.5em;
-    padding: 5%;
-  }
-
-
-  h4 {
-    font-size: 1.5em;
-    padding: 5%;
-  }
 
   .menu {
     font-size: 12px;
@@ -547,7 +535,6 @@ i {
     z-index: 1000000;
   }
 
-
   .menu li {
     display: none;
   }
@@ -555,8 +542,7 @@ i {
   .nav-item, .menu-item {
     cursor: pointer;
     float: right;
-    margin: 1% !important;
-    padding: 10px !important;
+    margin: 1%;
     text-transform: uppercase;
   }
 }

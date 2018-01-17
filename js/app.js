@@ -6,7 +6,7 @@ $(() => {
   const $showSingle = $('.showSingle');
   const $targetDiv = $('.targetDiv');
 
-  $menuItems.show();
+  // $menuItems.show();
 
   $toggle.click(function() {
     $menuItems.slideToggle('slow');

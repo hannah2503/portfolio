@@ -429,6 +429,10 @@ i {
     width: 100%;
   }
 
+  .logo {
+    display:none;
+  }
+
   .hamburger {
     background: none;
     border: 0;

@@ -1,6 +1,5 @@
 @media all and (max-width: 1195px) {
 
-
   h2 {
     font-size: 1.5em;
     padding: 5%;
@@ -82,9 +81,17 @@
     width: 100%;
   }
 
-  .description {
-    padding: 5% 0;
-  }
+  .project h1 {
+    font-size: 2em;
+    padding: 2% 0;
+}
 
+  .description {
+    padding: 2% 0;
+}
+
+.project-links {
+    margin-left: 0;
+}
 
 }

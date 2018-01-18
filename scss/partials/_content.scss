@@ -19,6 +19,11 @@
 
 .project {
 
+  h1 {
+    font-size: 2em;
+    padding: 0;
+  }
+
   a {
     padding: 0;
     text-decoration: none;
@@ -73,18 +78,24 @@ img {
 }
 
 .project img {
-  border:0;
+  border: 0;
   padding: 0;
-  margin: 0 0 5% 0;
-  width: 100%;
+  margin: 0 10%;
+  /* width: 100%; */
 }
+
+.project h1 {
+    font-size: 2em;
+    padding: 2% 10% 0;
+  }
 
 .description {
-  font-size: 18px;
-  padding: 5% 0;
-  width: 80%;
+  padding: 2% 10%;
 }
 
+.project-links {
+  margin-left: 10%;
+}
 
 /*contact details*/
 

@@ -1,0 +1,14 @@
+.logo  {
+  border: 5px solid #0B3948;
+  cursor: pointer;
+  float: left;
+  margin-top: 4%;
+  margin-left: 13%;
+  grid-area: l;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo.white {
+  border: 5px solid #fff;
+}

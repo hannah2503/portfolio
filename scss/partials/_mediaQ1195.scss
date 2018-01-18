@@ -1,0 +1,90 @@
+@media all and (max-width: 1195px) {
+
+
+  h2 {
+    font-size: 1.5em;
+    padding: 5%;
+  }
+  .nav-item, .menu-item {
+    cursor: pointer;
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .detail-logo {
+    border: 5px solid #0B3948;
+    margin: 30% 14%;
+    width: 70%;
+  }
+
+  .home-logo-large {
+    font-size: 3em;
+  }
+
+  .home-logo {
+    display: none;
+  }
+
+
+  .logo  {
+    border: 0;
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+    grid-area: l;
+    text-align: center;
+  }
+
+  .logo.white {
+    border: 0;
+  }
+
+  .paragraph {
+    clear: both;
+    font-size: 16px;
+    padding: 0 5%;
+    text-align: left;
+    width: 80%;
+  }
+
+  .img-container {
+    overflow: hidden;
+    width: 100%
+  }
+
+  .aside-img {
+    float: left;
+    margin: 10% 0;
+    width: 80%;
+  }
+
+  .aside-img-container img {
+    overflow: hidden;
+    width: 50%;
+    margin: 5%;
+  }
+
+  img {
+    margin: auto;
+    width: 80%;
+  }
+
+
+  .project img {
+    border:0;
+    padding: 0;
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+
+  .description {
+    padding: 5% 0;
+  }
+
+
+}

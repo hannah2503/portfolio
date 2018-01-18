@@ -1,0 +1,118 @@
+@media all and (max-width: 520px) {
+
+
+  h1 {
+    font-size: 3em;
+    padding: 2%;
+  }
+
+  h2 {
+    font-size: 2em;
+    padding: 5%;
+  }
+
+
+  h4 {
+    font-size: 1.5em;
+    padding: 5%;
+  }
+
+
+  .detail-logo {
+    border: 5px solid #0B3948;
+    margin: 50% 14%;
+    width: 70%;
+  }
+
+  .home-logo {
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  .home-logo-large {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .targetDiv {
+    font-size: 12px;
+    margin: 10% auto;
+    width: 100%;
+  }
+
+  .hamburger {
+    background: none;
+    border: 0;
+    color: #0B3948;
+    cursor: pointer;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 45px;
+    outline: none;
+    padding: 5px 15px 0 15px;
+    position: absolute;
+    top: 0;
+    z-index: 10000000000000;
+  }
+
+  .menu {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000000;
+  }
+
+  .menu li {
+    display: none;
+  }
+
+  .nav-item, .menu-item {
+    cursor: pointer;
+    float: right;
+    margin: 1%;
+    text-transform: uppercase;
+  }
+
+  .detail {
+    width: 100%;
+
+  }
+
+  .paragraph {
+    float: left;
+    padding: 0 5%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+
+
+  .img-container {
+    margin: auto;
+    overflow: hidden;
+    width: 100%
+  }
+
+  .aside-img {
+    clear: both;
+    width: 100%;
+  }
+
+
+  .project img {
+    border: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .description {
+    width: 80%;
+  }
+}

@@ -1,0 +1,100 @@
+/*MAIN CONTENT*/
+.content {
+  font-size: 20px;
+  grid-area: c;
+  height: 100vh;
+  width: 100%;
+}
+
+.home-content, .about-me, .projects, .contact-me {
+  color:  #0B3948;
+  grid-area: c;
+  height: 100vh;
+  width: 100%;
+}
+
+.about-me, .projects, .contact-me {
+  display: none;
+}
+
+.home-content, .contact-me {
+  text-align: center;
+}
+
+.detail-logo {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.home-logo-large {
+  font-size: 3em;
+}
+
+.home-logo {
+  display: none;
+}
+
+/*about me and projects */
+.paragraph {
+  float: left;
+  margin-bottom: 5%;
+  padding-left: 3%;
+  text-align: left;
+  width: 20%;
+}
+
+img {
+  width: 80%;
+}
+
+.img-container {
+  margin: auto;
+  overflow: hidden;
+
+  width: 100%
+}
+.aside-img {
+  float: right;
+  width: 40%;
+}
+
+.aside-img-container img {
+  overflow: hidden;
+  width: 30%;
+  margin: 0 10%;
+}
+
+.project img {
+  border:0;
+  padding: 0;
+  margin: 0 0 5% 0;
+  width: 100%;
+}
+
+.description {
+  font-size: 18px;
+  padding: 5% 0;
+  width: 80%;
+}
+
+
+/*contact details*/
+
+.icons {
+  text-align: center;
+}
+
+i, .email{
+  color:  #0B3948;
+
+}
+
+.fa {
+  font-size: 30px !important;
+  padding: 2%;
+}
+
+.fa:hover {
+  color: #FF5964;
+
+}

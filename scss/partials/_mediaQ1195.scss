@@ -4,6 +4,7 @@
     font-size: 1.5em;
     padding: 5%;
   }
+
   .nav-item, .menu-item {
     cursor: pointer;
     float: right;
@@ -14,7 +15,7 @@
   }
 
   .position {
-    border: 5px solid #0B3948;
+    border: 5px solid #333333;
     margin: 30% 14%;
     width: 70%;
   }
@@ -81,16 +82,22 @@
     width: 100%;
   }
 
-  .project h1 {
+  .project h2 {
     font-size: 2em;
     padding: 2% 0;
 }
 
-  .description {
-    padding: 2% 0;
+.detail {
+  h1 {
+    margin: 0 5%;
+  }
 }
 
-.project-links {
+  .description {
+    margin: 2% 0;
+}
+
+.project-links-wrapper {
     margin-left: 0;
 }
 

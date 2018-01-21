@@ -2,24 +2,30 @@
 
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     padding: 2%;
   }
 
   h2 {
-    font-size: 2em;
-    padding: 5%;
-  }
-
-
-  h4 {
     font-size: 1.5em;
     padding: 5%;
   }
 
 
+  h4 {
+    font-size: 1em;
+    padding: 5%;
+  }
+
+  a {
+    color: #333333;
+    padding: 0;
+    text-decoration: none;
+  }
+
+
   .position {
-    border: 5px solid #0B3948;
+    border: 5px solid #333333;
     margin: 50% 14%;
     width: 70%;
   }
@@ -39,7 +45,7 @@
   }
 
   .targetDiv {
-    font-size: 12px;
+    font-size: 14px;
     margin: 10% auto;
     width: 100%;
   }
@@ -47,7 +53,7 @@
   .hamburger {
     background: none;
     border: 0;
-    color: #0B3948;
+    color: #333333;
     cursor: pointer;
     display: block;
     font-size: 1.4em;
@@ -105,25 +111,34 @@
     width: 100%;
   }
 
-
   .project img {
     border: 0;
     padding: 0;
     width: 100%;
   }
 
-  .project h1 {
+  .project h2 {
     font-size: 2em;
     padding: 0 ;
   }
 
   .description {
-    padding: 2% 0;
+    margin: 2% 0 10%;
+    text-align: justify;
     width: 100%;
   }
 
-  .project-links {
+  .project-links-wrapper {
     margin-left: 0;
+
   }
 
+  .project-links {
+    padding: 1%;
+    margin: 0;
+
+    &:hover {
+      border: 2px solid #FF5964;
+    }
+  }
 }

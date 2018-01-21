@@ -1,7 +1,7 @@
 @media all and (max-width: 860px) {
 
   .position {
-    border: 5px solid #0B3948;
+    border: 5px solid #333333;
     margin: 50% 14%;
     width: 70%;
   }
@@ -34,7 +34,7 @@
   }
 
   .menu {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     position: absolute;
     text-align: center;
@@ -61,7 +61,7 @@
   }
 
   .menu ul li a {
-    color:  #0B3948;
+    color:  #333333;
     margin: 0;
     text-decoration:none;
   }
@@ -155,17 +155,17 @@
     width: 100%;
   }
 
-  .project h1 {
+  .project h2 {
     font-size: 2em;
     padding: 0 ;
   }
 
   .description {
-    padding: 2% 0;
+    margin: 2% 0;
     width: 100%;
   }
 
-  .project-links {
+  .project-links-wrapper {
     margin-left: 0;
   }
 

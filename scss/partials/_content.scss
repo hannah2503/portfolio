@@ -24,10 +24,6 @@
     padding: 0;
   }
 
-  a {
-    padding: 0;
-    text-decoration: none;
-  }
 }
 
 .home-content, .contact-me {
@@ -83,16 +79,16 @@ img {
   margin: 0 10%;
 }
 
-.project h1 {
+.project h2 {
     font-size: 2em;
     padding: 2% 10% 0;
   }
 
 .description {
-  padding: 2% 10%;
+  margin: 2% 10%;
 }
 
-.project-links {
+.project-links-wrapper {
   margin-left: 10%;
 }
 

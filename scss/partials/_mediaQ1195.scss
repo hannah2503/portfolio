@@ -1,10 +1,38 @@
 @media all and (max-width: 1195px) {
 
+//TEXT SIZE
+
+  h1 {
+    font-size: 1.8em;
+    padding: 2%;
+  }
+
   h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding: 5%;
   }
 
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 3%;
+  }
+
+  h4 {
+    font-size: 1em;
+    padding: 2%;
+  }
+
+  .project h2 {
+    padding: 2% 0;
+  }
+
+  .section-wrapper {
+    h1 {
+      margin: 0 5%;
+    }
+  }
+
+//NAVIGATION
   .nav-item, .menu-item {
     cursor: pointer;
     float: right;
@@ -14,8 +42,7 @@
     text-transform: uppercase;
   }
 
-  .position {
-    border: 5px solid #333333;
+  .hello-contact-wrapper {
     margin: 30% 14%;
     width: 70%;
   }
@@ -27,7 +54,6 @@
   .home-logo {
     display: none;
   }
-
 
   .logo  {
     border: 0;
@@ -44,6 +70,7 @@
     border: 0;
   }
 
+//ABOUT ME
   .paragraph {
     clear: both;
     font-size: 16px;
@@ -69,12 +96,7 @@
     margin: 5%;
   }
 
-  img {
-    margin: auto;
-    width: 80%;
-  }
-
-
+//PROJECTS
   .project img {
     border:0;
     padding: 0;
@@ -82,23 +104,13 @@
     width: 100%;
   }
 
-  .project h2 {
-    font-size: 2em;
-    padding: 2% 0;
-}
-
-.detail {
-  h1 {
-    margin: 0 5%;
-  }
-}
 
   .description {
     margin: 2% 0;
-}
+  }
 
-.project-links-wrapper {
+  .project-links-wrapper {
     margin-left: 0;
-}
+  }
 
 }

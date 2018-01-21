@@ -1,7 +1,30 @@
 @media all and (max-width: 860px) {
+  //TEXT SIZE
 
-  .position {
-    border: 5px solid #333333;
+  h1 {
+    font-size: 2em;
+    padding: 2%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    padding: 5%;
+  }
+
+
+  h4 {
+    font-size: 1em;
+    padding: 5%;
+  }
+
+  a {
+    color: #333333;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  //HOME & CONTACT
+  .hello-contact-wrapper {
     margin: 50% 14%;
     width: 70%;
   }
@@ -10,22 +33,24 @@
     display: block;
   }
 
-  .home-logo h1 {
-    font-size: 3.5em;
-    text-transform: uppercase;
+  .home-logo {
+
+    h1 {
+      font-size: 3.5em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+    }
   }
-
-  .home-logo h2 {
-    font-size: 2.5em;
-    text-transform: uppercase;
-  }
-
-
+  
   .home-logo-large {
     display: none;
   }
 
-
+  //NAVIGATION
   .nav-item, .menu-item {
     cursor: pointer;
     float: right;
@@ -101,24 +126,20 @@
     z-index: 10000000000000;
   }
 
-  .detail {
+
+  //PAGES
+  .section-wrapper {
     font-size: 1em;
     margin-top: 10%;
     padding: 2%;
     margin-left: 1%;
   }
 
-
-  h2 {
-    font-size: 1.5em;
-    padding: 5%;
-  }
-
   .targetDiv {
-    /*font-size: 18px;*/
     width: 100%;
   }
 
+  //ABOUT ME
   .paragraph {
     clear: both;
     font-size: 16px;
@@ -138,26 +159,26 @@
     width: 80%;
   }
 
-  .aside-img-container img {
-    overflow: hidden;
-    width: 50%;
-    margin: 5%;
+  .aside-img-container {
+
+    img {
+      overflow: hidden;
+      width: 50%;
+      margin: 5%;
+    }
   }
 
-  img {
-    margin: auto;
-    width: 80%;
-  }
+  //PROJECT
+  .project  {
+    img {
+      border: 0;
+      padding: 0;
+      width: 100%;
+    }
 
-  .project img {
-    border: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-  .project h2 {
-    font-size: 2em;
-    padding: 0 ;
+    h2 {
+      padding: 0 ;
+    }
   }
 
   .description {

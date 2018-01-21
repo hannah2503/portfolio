@@ -4,13 +4,21 @@
 
 //content
 @import "./partials/_menu.scss";
-@import "./partials/_content.scss";
-@import "./partials/_animate.scss";
-@import "./partials/_logo.scss";
-@import "./partials/_carousel.scss";
+@import "./partials/home.scss";
+@import "./partials/_about.scss";
+@import "./partials/_projects.scss";
+@import "./partials/_contact.scss";
 @import "./partials/_footer.scss";
 
+@import "./partials/_animate.scss";
+@import "./partials/_carousel.scss";
+
+
+
 //media queries
-@import "./partials/_mediaQ1195.scss";
-@import "./partials/_mediaQ860.scss";
-@import "./partials/_mediaQ520.scss";
+// @import "./partials/_mediaQ1195.scss";
+// @import "./partials/_mediaQ860.scss";
+// @import "./partials/_mediaQ520.scss";
+
+// @import "./partials/_content.scss";
+// @import "./partials/_logo.scss";

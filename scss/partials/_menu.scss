@@ -1,10 +1,4 @@
 
-
-.menu {
-  grid-area: m;
-  text-transform: uppercase;
-}
-
 .menu:hover {
   display: block;
 }
@@ -13,12 +7,184 @@
   display: none;
 }
 
-
 .nav-item, .menu-item {
   cursor: pointer;
   float: right;
   margin-top: 3%;
   margin-right: 10%;
-  /*padding: 5px;*/
   text-transform: uppercase;
+}
+
+.logo  {
+  border: 5px solid #333333;
+  cursor: pointer;
+  float: left;
+  margin-top: 4%;
+  margin-left: 13%;
+  grid-area: l;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo.white {
+  border: 5px solid #fff;
+}
+
+
+
+@media all and (max-width: 1195px) {
+
+  .nav-item, .menu-item {
+    cursor: pointer;
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .logo  {
+    border: 0;
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+    grid-area: l;
+    text-align: center;
+  }
+
+  .logo.white {
+    border: 0;
+  }
+}
+
+@media all and (max-width: 860px) {
+
+  .nav-item, .menu-item {
+    cursor: pointer;
+    float: right;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  .menu {
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000000;
+  }
+
+  .menu ul {
+    list-style-image: none;
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+  }
+
+  .menu li {
+    display: none;
+    padding:15px 0 15px 0;
+  }
+
+
+  .menu li:hover {
+    display: block;
+    padding:15px 0 15px 0;
+  }
+
+  .menu ul li a {
+    color:  #333333;
+    margin: 0;
+    text-decoration:none;
+  }
+
+  .menu ul li a:hover {
+    color: pink;
+    text-decoration:none;
+  }
+
+  .menu a {
+    color:  #fff;
+    text-decoration:none;
+  }
+
+  .menu a:hover {
+    color:  #fff;
+    text-decoration:none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .hamburger {
+    background: none;
+    border: 0;
+    color: #0B3948;
+    cursor: pointer;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 45px;
+    outline: none;
+    padding: 5px 15px 0 15px;
+    position: absolute;
+    top: 0;
+    z-index: 10000000000000;
+  }
+
+}
+
+@media all and (max-width: 520px) {
+
+
+  .logo {
+    display: none;
+  }
+
+  .targetDiv {
+    font-size: 14px;
+    margin: 10% auto;
+    width: 100%;
+  }
+
+  .hamburger {
+    background: none;
+    border: 0;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 45px;
+    outline: none;
+    padding: 5px 15px 0 15px;
+    position: absolute;
+    top: 0;
+    z-index: 10000000000000;
+  }
+
+  .menu {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000000;
+  }
+
+  .menu li {
+    display: none;
+  }
+
+  .nav-item, .menu-item {
+    cursor: pointer;
+    float: right;
+    margin: 1%;
+    text-transform: uppercase;
+  }
 }

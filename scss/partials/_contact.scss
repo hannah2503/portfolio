@@ -1,0 +1,58 @@
+.contact-me {
+  display: none;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.hello-contact-wrapper {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.icons {
+  text-align: center;
+}
+
+i, .email{
+  color:  #0B3948;
+
+}
+
+.fa {
+  font-size: 30px !important;
+  padding: 2%;
+}
+
+.fa:hover {
+  color: #FF5964;
+
+}
+
+@media all and (max-width: 520px) {
+
+  .hello-contact-wrapper {
+    margin: 50% 14%;
+    width: 70%;
+  }
+
+}
+
+@media all and (max-width: 860px) {
+  .hello-contact-wrapper {
+    margin: 50% 14%;
+    width: 70%;
+  }
+
+}
+
+// 
+// @media all and (max-width: 1195px) {
+//
+//   .hello-contact-wrapper {
+//     margin: 30% 14%;
+//     width: 70%;
+//   }
+//
+// }

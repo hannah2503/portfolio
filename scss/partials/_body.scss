@@ -17,19 +17,19 @@ html.bg {
   z-index: 1;
 }
 
-.detail {
-  h1 {
-  text-align: center;
-}
-}
-
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 2%;
 }
 
+.section-wrapper {
+  h1 {
+    text-align: center;
+  }
+}
+
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   padding: 3%;
 }
 
@@ -45,7 +45,7 @@ h4 {
 
 a {
   color: #333333;
-  padding: 5px;
+  // padding: 5px;
   text-decoration: none;
 }
 
@@ -54,7 +54,91 @@ a:hover {
   padding: 5px;
 }
 
-.project-links {
-  margin: 10% 0;
+
+@media all and (max-width: 520px) {
+
+  h1 {
+    font-size: 2em;
+    padding: 2%;
+  }
+
+  .section-wrapper {
+    width: 100%;
+
+  }
+
+  h2 {
+    font-size: 1.3em;
+    padding: 5%;
+  }
+
+
+  h4 {
+    font-size: 1em;
+    padding: 5%;
+  }
+
+  a {
+    color: #333333;
+    padding: 0;
+    text-decoration: none;
+  }
+}
+
+
+@media all and (max-width: 860px) {
+
+  h1 {
+    font-size: 2em;
+    padding: 2%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    padding: 5%;
+  }
+
+
+  h4 {
+    font-size: 1em;
+    padding: 5%;
+  }
+
+  a {
+    color: #333333;
+    padding: 0;
+    text-decoration: none;
+  }
+
+
+}
+
+@media all and (max-width: 1195px) {
+
+  h1 {
+    font-size: 1.8em;
+    padding: 2%;
+  }
+
+  .section-wrapper {
+    h1 {
+      margin: 8% 0 3% 0;
+    }
+  }
+
+  h2 {
+    font-size: 1.4em;
+    padding: 5%;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 3%;
+  }
+
+  h4 {
+    font-size: 1em;
+    padding: 2%;
+  }
 
 }

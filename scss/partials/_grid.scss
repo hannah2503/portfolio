@@ -10,3 +10,22 @@
   height: 100%;
   width: 100%;
 }
+
+.content {
+  font-size: 20px;
+  grid-area: c;
+  height: 100vh;
+  width: 100%;
+}
+
+.menu {
+  grid-area: m;
+  text-transform: uppercase;
+}
+
+.home-content, .about-me, .projects, .contact-me {
+  color:  #333333;
+  grid-area: c;
+  height: 100vh;
+  width: 100%;
+}

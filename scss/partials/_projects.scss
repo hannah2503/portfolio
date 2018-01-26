@@ -2,25 +2,25 @@
   display: none;
 }
 
-.project img {
-  border: 0;
-  padding: 0;
-  margin: 0 10%;
-}
-
 .project {
+
+  img {
+    border: 0;
+    padding: 0;
+    width: 75%;
+    margin: 0 10%;
+  }
 
   h1 {
     font-size: 2em;
     padding: 0;
   }
 
-}
-
-.project h2 {
+  h2 {
     font-size: 1.5em;
     padding: 2% 10% 0;
   }
+}
 
 .description {
   margin: 2% 10%;
@@ -36,7 +36,7 @@
   a {
     padding: 0!important;
   }
-  
+
   &:hover {
     border: 2px solid #FF5964;
   }
@@ -45,27 +45,28 @@
 
 @media all and (max-width: 1195px) {
   //PROJECTS
-    .project img {
+  .project {
+    img {
       border:0;
       padding: 0;
-      margin: 0 0 20px 0;
-      width: 100%;
+      // margin: 0 0 20px 0;
+      width: 75%;
     }
 
-    .description {
-      margin: 2% 0;
+    h2 {
+        padding: 5% 10% 0;
     }
+  }
 
-    .project-links-wrapper {
-      margin-left: 0;
-    }
+  .description {
+    margin: 2% 10%;
+  }
 
-    .project h2 {
-      padding: 2% 0;
-    }
+  .project-links-wrapper {
+    margin-left: 10%;
+  }
 
 }
-
 @media all and (max-width: 860px) {
   //PROJECT
 
@@ -77,26 +78,25 @@
   }
 
   .project  {
+
     img {
       border: 0;
       padding: 0;
-      width: 100%;
+      width: 75%;
     }
 
     h2 {
-      padding: 0 ;
+      padding: 5% 10% ;
     }
-
-
   }
 
   .description {
-    margin: 2% 0;
+    margin: 2% 10%;
     width: 100%;
   }
 
   .project-links-wrapper {
-    margin-left: 0;
+    margin: 5% 10%;
   }
 
 }
@@ -104,15 +104,19 @@
 @media all and (max-width: 520px) {
   //PROJECTS
   .project {
+
     img {
       border: 0;
       padding: 0;
+      margin: 10% 0;
       width: 100%;
     }
+
     h2 {
       padding: 0 ;
     }
   }
+
   .description {
     margin: 2% 0 10%;
     text-align: left;
